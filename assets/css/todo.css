@@ -1,0 +1,136 @@
+body {
+    font-family: 'Archivo', sans-serif;
+    box-sizing: border-box;
+    background-color: #FAF9FA;
+}
+
+input {
+    height: 30px;
+    width: 200px;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+    color: rgb(12, 99, 12);
+    font-weight: 900;
+}
+
+#isOutput {
+    overflow: auto;
+    height: 250px;
+}
+
+#inpSubmit {
+    height: 35px;
+    width: 200px;
+    background-color: #00e676;
+    border: none;
+    color: #000000;
+    text-transform: uppercase;
+    transition: background-color 0.1s;
+}
+
+#errorMsg {
+    color: #D50000;
+    display: inline-block;
+    font-weight: 900;
+    margin: 20px;
+}
+
+.statussignal {
+    text-align: center;
+    width: 100%;
+}
+
+#successMsg {
+    height: 20px;
+    color: #00e676;
+    display: inline-block;
+    font-weight: 900;
+    margin: 10px;
+    text-align: center;
+}
+
+.removecon {
+    height: 20px;
+    color: #00e676;
+    display: inline-block;
+    font-weight: 900;
+    margin: 10px;
+}
+
+#passMsg {
+    color: rgb(32, 114, 21);
+    display: inline-block;
+    font-weight: 900;
+    margin: 10px;
+}
+
+#inpSubmit:hover {
+    background-color: #088a4b;
+    color: #fff;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+#clearAll {
+    height: 37px;
+    width: 100%;
+    background-color: #ff1a1a;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    transition: width 0.1s;
+}
+
+.todoBox {
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 10px;
+    text-align: left;
+}
+
+.todoBox:hover {
+    background-color: #DDDDDD;
+}
+
+#clearAll:hover {
+    background-color: #cc0000;
+}
+
+.todolist {
+    display: inline-block;
+}
+
+.removebtn {
+    float: right;
+    cursor: pointer;
+}
+
+#fieldset1 {
+    margin-bottom: 20px;
+    height: 90px;
+    text-align: center;
+    padding: 20px;
+}
+
+#fieldset2 {
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 20px;
+    height: 270px;
+}
+
+fieldset legend {
+    text-align: left;
+}
+
+#container {
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+}

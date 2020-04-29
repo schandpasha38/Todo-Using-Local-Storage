@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="assets/css/todo.css" />
+  <title>Storage App</title>
+</head>
+
+<body>
+
+  <div id="container">
+    <h1><u>Todo Using App with Local Storage App</u></h1>
+    <fieldset id="fieldset1">
+      <legend><u>Input Field</u></legend>
+      <input id="inpKey" type="text" placeholder="Todo Title....">
+      <input id="inpvalue" type="text" placeholder="Todo Discription....">
+      <button id="inpSubmit" type="submit">Insert Data</button>
+      <div id="statussignal">
+        <span id="successMsg"></span>
+        <span id="errorMsg"></span>
+        <span class="removecon"></span>
+      </div>
+    </fieldset>
+
+
+
+    <fieldset id="fieldset2">
+      <legend><u>Output Field</u></legend>
+      <div id="isOutput"></div>
+    </fieldset>
+
+    <button id="clearAll">Clear All</button>
+  </div>
+  <script src="assets/js/todos.js"></script>
+</body>
+
+</html>
