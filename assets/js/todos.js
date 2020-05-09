@@ -22,7 +22,7 @@ function inputValuesGrab(e) {
     inpvalue.value = "";
     successMsg.innerHTML = `Todo with Title ${key} is Added to list`
   } else {
-    errorMsg.innerHTML = "Please Enter Key And Value to proceed To Add :)";
+    errorMsg.innerHTML = "Please Enter Title And Discription to proceed To Add :)";
     removecon.textContent = "";
     successMsg.innerHTML = "";
   }
